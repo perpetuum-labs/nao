@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.1.0",
+  "iOS" : [
+    {
+      "name" : "TypographyKit",
+      "hash" : "db4d63eabdd3530ef8e6ce58bc5ed6347f8e6e5722913e6e08ff4ed29b234580"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+disabled_rules:
+- trailing_whitespace
+- nesting
+- line_length
+
+included:
+- Nao
+- Frameworks
+
+excluded:
+- Carthage
+- Frameworks
+- NaoTests
+
+force_cast: warning
+force_try: warning
+min_length: warning
+allowed_symbols: warning
+identifier_name:
+  severity: warning
+  excluded: # excluded via string array
+    - id
+    - ip
+
+type_body_length:
+- 300 # warning
+- 400 # error
+
+file_length:
+- 500 # warning
+- 1200 # error
